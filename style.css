@@ -1,0 +1,181 @@
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    padding: 0px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Garamond;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightpink;
+}
+#header ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#header li {
+   display: inline;
+   padding: 20px; 
+}
+#header a {
+    text-decoration: none;
+    color: white;
+}
+#header a:hover {
+    color: #90C3D2;
+    background-color: mediumpurple;
+}
+
+#header1 {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 50%;
+}
+#abouttype {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 1%;
+}
+#about {
+    float: left;
+    width: 600px;
+    height: 400px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 100px;
+    column-gap: 100px;
+    padding: 50px;
+    padding-left: 250px;
+}
+#skills {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 1%;
+}
+#skillsbody {
+    width: 600px;
+    height: 100px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 100px;
+    padding: 50px;
+    padding-left: 250px;
+}
+#skillsbody li {
+    display: inline;
+    padding: 100px;
+    -webkit-column-count: 2;
+    padding-bottom: 200px;
+}
+#projects {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 1%;
+}
+#projectslist {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+#experienceheader {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 1%;
+}
+#experience1 {
+    font-family: Garamond;
+    padding-left: 100px;
+    line-height: 5%;
+}
+#experience1 h6 {
+    font-size: 14px;
+    font-style: italic;
+    color: lightpink;
+    font-family: Garamond;
+    text-indent: 10px;
+    line-height: 5%;
+}
+#experience1 p {
+    text-indent: 10px;
+}
+#experience2 {
+    font-family: Garamond;
+    padding-left: 100px;
+    line-height: 5%;
+}
+#experience2 h6 {
+    font-size: 14px;
+    font-style: italic;
+    color: lightpink;
+    font-family: Garamond;
+    text-indent: 10px;
+    line-height: 5%;
+}
+#experience2 p {
+    text-indent: 10px;
+}
+#experience3 {
+    font-family: Garamond;
+    padding-left: 100px;
+    line-height: 5%;
+}
+#experience3 h6 {
+    font-size: 14px;
+    font-style: italic;
+    color: lightpink;
+    font-family: Garamond;
+    text-indent: 10px;
+    line-height: 5%;
+}
+#experience3 p {
+    text-indent: 10px;
+}
+#experience4 {
+    font-family: Garamond;
+    padding-left: 100px;
+    line-height: 5%;
+}
+#experience4 h6 {
+    font-size: 14px;
+    font-style: italic;
+    color: lightpink;
+    font-family: Garamond;
+    text-indent: 10px;
+    line-height: 5%;
+}
+#experience4 p {
+    text-indent: 10px;
+}
+#educationheader {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 1%;
+}
+#depotu {
+    padding-left: 100px;
+}
+#contactheader {
+    font-family: Garamond;
+    text-align: center;
+    line-height: 1%;
+}
+#contactform {
+    text-align: center;
+    background-color: lightpink;
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin: auto;
+}
+#box form {
+   color: white;
+   font-size: 12px; 
+   padding: 20px;
+}
+footer{
+    text-align: center;
+}
