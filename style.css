@@ -1,3 +1,6 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #header {
     position: fixed;
     left: 0;
@@ -6,7 +9,6 @@
     padding: 0px;
     height: 35px;
     font-size: 16px;
-    font-family: Garamond;
     font-weight: bold;
     text-align: center;
     background-color: lightpink;
@@ -31,46 +33,46 @@
 }
 
 #header1 {
-    font-family: Garamond;
     text-align: center;
     line-height: 50%;
 }
 #abouttype {
-    font-family: Garamond;
     text-align: center;
     line-height: 1%;
 }
 #about {
-    float: left;
     width: 600px;
     height: 400px;
     -webkit-column-count: 2;
     -webkit-column-gap: 100px;
-    column-gap: 100px;
-    padding: 50px;
     padding-left: 250px;
 }
 #skills {
-    font-family: Garamond;
     text-align: center;
     line-height: 1%;
 }
-#skillsbody {
+#skillslist {
     width: 600px;
     height: 100px;
-    -webkit-column-count: 2;
+   -webkit-column-count: 2;
     -webkit-column-gap: 100px;
     padding: 50px;
     padding-left: 250px;
 }
-#skillsbody li {
+
+.left {
     display: inline;
-    padding: 100px;
-    -webkit-column-count: 2;
-    padding-bottom: 200px;
+    float: left;
+    padding-left: 100px;
+    list-style-type: none;
+}
+.right {
+    display:inline;
+    float: right;
+    padding-right: 100px;
+    list-style-type: none;
 }
 #projects {
-    font-family: Garamond;
     text-align: center;
     line-height: 1%;
 }
@@ -80,12 +82,10 @@
     text-align: left;
 }
 #experienceheader {
-    font-family: Garamond;
     text-align: center;
     line-height: 1%;
 }
 #experience1 {
-    font-family: Garamond;
     padding-left: 100px;
     line-height: 5%;
 }
@@ -93,7 +93,6 @@
     font-size: 14px;
     font-style: italic;
     color: lightpink;
-    font-family: Garamond;
     text-indent: 10px;
     line-height: 5%;
 }
@@ -101,7 +100,6 @@
     text-indent: 10px;
 }
 #experience2 {
-    font-family: Garamond;
     padding-left: 100px;
     line-height: 5%;
 }
@@ -109,7 +107,6 @@
     font-size: 14px;
     font-style: italic;
     color: lightpink;
-    font-family: Garamond;
     text-indent: 10px;
     line-height: 5%;
 }
@@ -117,7 +114,6 @@
     text-indent: 10px;
 }
 #experience3 {
-    font-family: Garamond;
     padding-left: 100px;
     line-height: 5%;
 }
@@ -125,7 +121,6 @@
     font-size: 14px;
     font-style: italic;
     color: lightpink;
-    font-family: Garamond;
     text-indent: 10px;
     line-height: 5%;
 }
@@ -133,7 +128,6 @@
     text-indent: 10px;
 }
 #experience4 {
-    font-family: Garamond;
     padding-left: 100px;
     line-height: 5%;
 }
@@ -141,7 +135,6 @@
     font-size: 14px;
     font-style: italic;
     color: lightpink;
-    font-family: Garamond;
     text-indent: 10px;
     line-height: 5%;
 }
@@ -149,7 +142,6 @@
     text-indent: 10px;
 }
 #educationheader {
-    font-family: Garamond;
     text-align: center;
     line-height: 1%;
 }
@@ -157,7 +149,6 @@
     padding-left: 100px;
 }
 #contactheader {
-    font-family: Garamond;
     text-align: center;
     line-height: 1%;
 }
@@ -169,7 +160,7 @@
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 10px;
-    margin: auto;
+    margin: auto; 
 }
 #box form {
    color: white;
